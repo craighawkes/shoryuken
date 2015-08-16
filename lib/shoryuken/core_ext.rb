@@ -1,7 +1,8 @@
 begin
   require 'active_support/core_ext/hash/keys'
   require 'active_support/core_ext/hash/deep_merge'
-rescue LoadError
+# rescue LoadError
+ensure  #use ensure so it works with Rails 3.2
   class Hash
     def stringify_keys
       keys.each do |key|
