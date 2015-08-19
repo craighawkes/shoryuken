@@ -25,5 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'dotenv'
 
   spec.add_dependency 'aws-sdk-core', '~> 2.0.21'
-  spec.add_dependency 'celluloid', '~> 0.16.0'
+  # spec.add_dependency 'celluloid', '~> 0.16.0'
+  spec.add_dependency 'celluloid', '= 0.16.0'
 end
